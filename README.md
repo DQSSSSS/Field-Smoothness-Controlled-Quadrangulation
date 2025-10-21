@@ -26,6 +26,17 @@ To install this project on a Unix-based system, use the following standard CMake
 git clone https://github.com/AnderLiang/Field-Smoothness-Controlled-Quadrangulation.git
 ```
 
+This project depends on CoMISo, glog, and Gurobi.
+
+CoMISo official website: https://www.graphics.rwth-aachen.de/software/comiso/
+
+glog official website: https://github.com/google/glog
+
+Gurobi official website: https://www.gurobi.com/
+
+We have provided precompiled libraries (libCoMISod.so and libglog.so) in the bin directory, but it is still recommended to install these dependencies manually.
+For academic use, Gurobi provides a free academic license, which you can apply for and install locally.
+
 ## Usage
 ```bash
 ./mkdir.sh
